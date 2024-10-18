@@ -242,7 +242,7 @@ nav a {
 
 
 
-#home-page-rukshan-image {
+#home-page-dasun-image {
     margin-top: -400px;
     height: 300px; /* Pinthura podi kirīma */
     /*width: 300px;*/ /*Eṭa atiri kirīmat nam width piḷiveḷaṭa salakā */
@@ -332,7 +332,7 @@ nav a {
 
 
     /*tablet image responsive*/
-    #home-page-rukshan-image {
+    #home-page-dasun-image {
         margin-top: -300px;
         height: 400px;
     }
@@ -389,7 +389,7 @@ nav a {
     }
 
     /*mobile image respon*/
-    #home-page-rukshan-image {
+    #home-page-dasun-image {
         margin-top: -200px;
         height: 350px;
     }
@@ -435,7 +435,7 @@ nav a {
     }
 
     /*laptop image respons*/
-    #home-page-rukshan-image {
+    #home-page-dasun-image {
         margin-top: -350px;
         height: 450px;
     }
@@ -479,7 +479,7 @@ nav a {
 
 
     /*laptop larg image*/
-    #home-page-rukshan-image {
+    #home-page-dasun-image {
         margin-top: -400px;
         height: 500px;
     }
@@ -565,7 +565,7 @@ nav a {
     }
 
     /*4k image responsive */
-    #home-page-rukshan-image {
+    #home-page-dasun-image {
         margin-top: -500px;
         height: 600px;
     }
