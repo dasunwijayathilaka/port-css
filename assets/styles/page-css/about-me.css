@@ -28,13 +28,13 @@
     /*background-color: #575757;*/
 }
 
-#about-image {
-    height: 250px;
-    margin: 90px 20px 30px 10px;
-    /*background-color: yellow;*/
+#about-Dasun {
+    height: 800px; /* Obē pinthurayē usuma podi kirīma */
+    margin: -100px -20px -30px -10px;
 }
-#about-rukshan-img {
-    height: 250px;
+
+#about-Dasun-img {
+    height: 200px;
 }
 
 #about-detail-section {
