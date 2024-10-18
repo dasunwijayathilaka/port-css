@@ -10,7 +10,7 @@
 .page-topic {
     font-family: "Urbanist", sans-serif;
     font-weight: 600;
-    font-size: 60px;
+    font-size: 40px;
     color: white;
 }
 
@@ -29,7 +29,7 @@
 }
 
 #about-Dasun {
-    height: 800px; /* Obē pinthurayē usuma podi kirīma */
+    height: 500px; /* Obē pinthurayē usuma podi kirīma */
     margin: -100px -20px -30px -10px;
 }
 

@@ -183,6 +183,8 @@ nav a {
     color: transparent;
 }
 
+
+
 /* Hero page name animation */
 
 
@@ -217,6 +219,10 @@ nav a {
 
 
 
+
+
+
+
 .home-page-image-section {
     display: flex;
     flex-direction: column;
@@ -233,11 +239,17 @@ nav a {
     width: 100%;
 
 }
+
+
+
 #home-page-rukshan-image {
     margin-top: -400px;
     height: 300px; /* Pinthura podi kirīma */
     /*width: 300px;*/ /*Eṭa atiri kirīmat nam width piḷiveḷaṭa salakā */
 }
+
+
+
 
 #home-page-clouds {
     margin-top: -50px;
@@ -318,10 +330,13 @@ nav a {
         z-index: 3;
     }
 
+
+    /*tablet image responsive*/
     #home-page-rukshan-image {
         margin-top: -300px;
         height: 400px;
     }
+
 
     #home-page-half-circle {
         margin-bottom: -80px;
@@ -332,6 +347,9 @@ nav a {
         height: 50px;
     }
 }
+
+
+
 
 /* Mobile (max-width: 480px) */
 @media all and (max-width: 480px) {
@@ -370,6 +388,7 @@ nav a {
         margin-top: 200px;
     }
 
+    /*mobile image respon*/
     #home-page-rukshan-image {
         margin-top: -200px;
         height: 350px;
@@ -415,6 +434,7 @@ nav a {
         margin-top: 150px;
     }
 
+    /*laptop image respons*/
     #home-page-rukshan-image {
         margin-top: -350px;
         height: 450px;
@@ -457,6 +477,8 @@ nav a {
         margin-top: 120px;
     }
 
+
+    /*laptop larg image*/
     #home-page-rukshan-image {
         margin-top: -400px;
         height: 500px;
@@ -542,6 +564,7 @@ nav a {
         z-index: 4;
     }
 
+    /*4k image responsive */
     #home-page-rukshan-image {
         margin-top: -500px;
         height: 600px;
