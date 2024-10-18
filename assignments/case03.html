@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name = "description" content = "this is the description">
+  <meta name = "keywords" content = "html, css">
+  <meta name = "author" content = "ijse" >
+  <meta name = "viewport" content="width=device-width, initial-scale=1.0">
+  <link rel = "icon" type="image/x-icon" href="">
+  <link rel="style sheet" href="../assets/styles/normalize.css">
+  <title>Case-03 Assignment-04</title>
+</head>
+<style>
+  div {
+    height: 100px;
+    width: 200px;
+    background-color: red;
+    border-radius: 20px;
+
+    animation: my-animation infinite alternate;
+    animation-duration: 3s ;
+  }
+
+  @keyframes my-animation {
+    0% {
+      margin-left: 0;
+      margin-top: 0;
+      background-color: blue;
+    }
+    25% {
+      margin-left: calc(100vw - 200px);
+      margin-top: 0;
+      transform: rotate(180deg);
+      background-color: yellow;
+    }
+    50% {
+      margin-left: calc(100vw - 200px);
+      margin-top: calc(100vh - 100px);;
+      transform: rotate(0deg);
+      background-color: red;
+    }
+    75% {
+      margin-left: 0;
+      margin-top: calc(100vh - 100px);
+      transform: rotate(180deg);
+      background-color: #a323d1;
+    }
+    100% {
+      margin-left: 0;
+      margin-top: 0;
+      background-color: orange;
+    }
+  }
+</style>
+<body>
+  <div></div>
+</body>
+</html>

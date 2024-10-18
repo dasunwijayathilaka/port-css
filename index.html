@@ -1,0 +1,910 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name = "description" content = "this is my portfolio">
+    <meta name = "keywords" content = "java, css, javascript">
+    <meta name = "author" content = "ijse" >
+    <meta name = "viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "icon" type="image/x-icon" href="assets/images/fav.png">
+    <link rel="style sheet" href="assets/styles/normalize.css">
+    <title>Portfolio - Dasun Wijayathilaka </title>
+
+    <!--AOS library-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!--animate.style library-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+    <!--font Urbanist-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <!--font Vazirmatn-->
+    <link href="https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&family=Vazirmatn:wght@100..900&display=swap" rel="stylesheet">
+
+    <!--font Yantramanav-->
+    <link href="https://fonts.googleapis.com/css2?family=Yantramanav:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+
+    <!--font Plus Jakarta Sans-->
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+
+    <!--Kanit Static-->
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <!--css styles for pages-->
+    <link rel="stylesheet" href="assets/styles/page-css/home.css">
+    <link rel="stylesheet" href="assets/styles/page-css/about-me.css">
+    <link rel="stylesheet" href="assets/styles/page-css/services.css">
+    <link rel="stylesheet" href="assets/styles/page-css/education.css">
+    <link rel="stylesheet" href="assets/styles/page-css/project.css">
+    <link rel="stylesheet" href="assets/styles/page-css/skills.css">
+    <link rel="stylesheet" href="assets/styles/page-css/assignments.css">
+    <link rel="stylesheet" href="assets/styles/page-css/footer.css">
+    <link rel="stylesheet" href="assets/styles/page-css/contact-me.css">
+
+</head>
+<body>
+
+<header>
+    <div class="home-page-logo-nav">
+        <h4 class="logo">DZL</h4> <!-- Logo for tablet and mobile views -->
+
+        <!-- Menu Icon for Mobile/Tablet -->
+        <div class="menu-icon" onclick="toggleSidebar()">
+            &#9776; <!-- Unicode for a hamburger icon -->
+        </div>
+    </div>
+    <!-- Desktop navigation bar -->
+    <nav>
+        <a class="upper-navigation" href="#home-page">Home</a>
+        <a class="upper-navigation" href="#about-page">About</a>
+        <a class="upper-navigation" href="#services-page">Services</a>
+        <a class="upper-navigation" href="#project-page">Projects</a>
+        <a class="upper-navigation" href="#education-page">Education</a>
+        <a class="upper-navigation" href="#skills-page">Skills</a>
+        <a class="upper-navigation" href="#assignments-page">Assignments</a>
+<!--        <a class="upper-navigation" href="#">Gallery</a>-->
+        <a class="upper-navigation" href="#contact-me-page">Contact Me</a>
+    </nav>
+    <!-- Sidebar navigation for mobile/tablet -->
+    <div id="sidebar" class="sidebar">
+        <a href="javascript:void(0)" class="closebtn" onclick="toggleSidebar()">&times;</a>
+        <a href="#home-page">Home</a>
+        <a href="#about-page">About</a>
+        <a href="#services-page">Services</a>
+        <a href="#project-page">Projects</a>
+        <a href="#education-page">Education</a>
+        <a href="#skills-page">Skills</a>
+        <a href="#assignments-page">Assignments</a>
+<!--        <a href="#">Gallery</a>-->
+        <a href="#contact-me-page">Contact Me</a>
+    </div>
+</header>
+
+
+<!--home page-->
+<main class="home-page" id="home-page">
+    <!--content section-->
+    <div class="home-item">
+        <div id="home-page-first-name">I'm Dasun</div>
+        <div class="loader">
+            <div class="words">
+                <span class="word">Tech Enthusiast</span>
+                <span class="word">Student</span>
+            </div>
+        </div>
+        <div class="home-page-image-section">
+            <img id="home-page-half-circle" src="assets/images/<!--add-->" title="" alt="">
+            <img id="home-page-rukshan-image" src="assets/images/<!--add-->" title="Dasun" alt="image">
+            <img id="home-page-clouds" src="assets/images/<!--add-->" title="nothing" alt="">
+        </div>
+    </div>
+</main>
+
+<!--about me page-->
+<main class="about-me-page" id="about-page">
+
+    <!--main content section-->
+    <section class="about-main-content-section">
+
+        <!--topic section-->
+        <div class="topic-section">
+            <div class="page-topic" data-aos="fade-up">About me</div>
+            <div class="page-sub-topic" data-aos="fade-up">Who am I?</div>
+        </div>
+
+        <div class="about-content-section">
+
+            <!--my photo-->
+            <div data-aos="fade-up" id="about-image">
+                <img id="about-Dasun" src="assets/images/<!--add-->" title="Dasun" alt="image">
+            </div>
+
+            <div id="about-detail-section">
+                <!--My name section-->
+                <div>
+                    <label data-aos="fade-up" id="about-name">
+                        I'm <br>
+                       Dasun Wijayathilaka
+                    </label>
+                </div>
+
+                <!--Paragraph section-->
+                <div>
+                    <p data-aos="fade-up">
+                        I am undertaking a Diploma in Software Engineering, with a strong enthusiasm for technology and problem-solving. I'm eager to apply my skills in practical projects and be part of innovative solutions.
+                    </p>
+                </div>
+
+                <!--social media-->
+                <div class="about-social-section">        <!--change this -->
+                                                                                                         <!--change this -->
+                    <a data-aos="fade-up" data-social="linkedin" aria-label="LinkedIn" href="<!--add link-->" target="_blank">
+                        <img src="assets/images/<!--add-->" title="linkedIn profile" alt="linkedin logo">
+                    </a>
+
+                    <a data-aos="fade-up" href="<!--add git link-->" target="_blank">
+                        <img src="assets/images/<!--add-->" title="github profile" alt="github logo">
+                    </a>
+
+                    <a data-aos="fade-up" href="<!--add fb link-->" target="_blank">
+                        <img src="assets/images/<!--add-->" title="facebook profile" alt="facebook logo">
+                    </a>
+
+                    <a data-aos="fade-up" href="<!--add wtzp-->" target="_blank">
+                        <img src="assets/images/<!--add-->" title="whatsapp messenger" alt="whatsapp logo">
+                    </a>
+                </div>
+
+                <!--two buttons-->
+                <div data-aos="fade-up" class="about-buttons">
+                    <div>
+                        <button class="button-cv">
+                            <span>Download CV</span>
+                        </button>
+                    </div>
+
+                    <div>
+                        <a href="#contact-me-page">
+                            <button type="submit" class="custom-button">
+                                Hire me
+                                <svg class="custom-svg" viewBox="0 0 16 19" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                            d="M7 18C7 18.5523 7.44772 19 8 19C8.55228 19 9 18.5523 9 18H7ZM8.70711 0.292893C8.31658 -0.0976311 7.68342 -0.0976311 7.29289 0.292893L0.928932 6.65685C0.538408 7.04738 0.538408 7.68054 0.928932 8.07107C1.31946 8.46159 1.95262 8.46159 2.34315 8.07107L8 2.41421L13.6569 8.07107C14.0474 8.46159 14.6805 8.46159 15.0711 8.07107C15.4616 7.68054 15.4616 7.04738 15.0711 6.65685L8.70711 0.292893ZM9 18L9 1H7L7 18H9Z"
+                                            class="custom-path"
+                                    ></path>
+                                </svg>
+                            </button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+</main>
+
+
+
+
+
+
+<!--services page-->
+<main class="service-page" id="services-page">
+
+    <!--topic section-->
+    <section class="topic-section">
+        <div class="page-topic" data-aos="fade-up">Services</div>
+        <div class="page-sub-topic" data-aos="fade-up">Professional Offerings</div>
+    </section>
+
+
+    <!--Services section-->
+    <section class="services-section">
+        <!--Service-01-->
+        <div class="services-card">
+            <img data-aos="fade-up" src="assets/images/web-dev.png" title="web development" alt="png"> <br>
+            <div data-aos="fade-up">Custom Web Development</div> <br>
+            <p data-aos="fade-up">SEO-friendly websites that captivate users and boost conversions. By leveraging advanced technologies, we ensure your website is scalable, secure, and offers a seamless user experience across all platforms and devices.</p>
+        </div>
+
+        <!--Service-02-->
+        <div class="services-card">
+            <img data-aos="fade-up" src="assets/images/mobile-app-dev.png" title="mobile app development" alt="png"> <br>
+            <div data-aos="fade-up">Mobile App Development</div> <br>
+            <p data-aos="fade-up">We create dynamic, scalable applications for both B2B and B2C markets. With a focus on intuitive design, smooth navigation, and strong performance, our apps deliver an engaging and efficient user experience, customized to meet your evolving business needs.</p>
+        </div>
+
+        <!--Service-03-->
+        <div class="services-card">
+            <img data-aos="fade-up" src="assets/images/desktop-app-dev.png" title="desktop app development" alt="png"> <br>
+            <div data-aos="fade-up">Desktop App Development</div> <br>
+            <p data-aos="fade-up"> Our desktop apps handle large-scale data processing, integrate with various platforms, and offer rich functionality while providing a user-friendly interface to improve productivity and simplify complex workflows.</p>
+        </div>
+
+        <!--Service-04-->
+        <div class="services-card">
+            <img data-aos="fade-up" src="assets/images/ui-ux-design.png" title="UI/UX Design" alt="png"> <br>
+            <div data-aos="fade-up">UI/UX Design</div> <br>
+            <p data-aos="fade-up"> Digital interactions that prioritize usability and accessibility. Our design process includes comprehensive research, wireframing, prototyping, and testing to ensure a smooth, visually appealing user journey that boosts engagement and satisfaction.</p>
+        </div>
+
+        <!--Service-05-->
+        <div class="services-card">
+            <img data-aos="fade-up" src="assets/images/wordpress-logo.png" title="wordpress web development" alt="png"> <br>
+            <div data-aos="fade-up">Wordpress web Development</div> <br>
+            <p data-aos="fade-up">High-performance, secure, and scalable websites. Our expert team creates custom themes and plugins, ensuring full functionality and seamless user experiences. From e-commerce to corporate websites, we tailor each project to meet your business goals, with a focus on responsive design and SEO optimization.</p>
+        </div>
+    </section>
+</main>
+
+
+
+
+
+
+
+<!--Project page-->
+<main class="project-page" id="project-page">
+    <!--topic section-->
+    <section class="topic-section">
+        <div data-aos="fade-up" class="page-topic">Project</div>
+        <div data-aos="fade-up" class="page-sub-topic">What I've Built?</div>
+    </section>
+
+    <!--Project page main content-->
+    <section class="project-main-content-section">
+
+        <!--card-01-->
+        <div data-aos="fade-up" class="project-card">                           <!--add image-->
+            <img data-aos="fade-up" class="project-card-image" src="assets/images/<!--add-->" title="CLI stock management system" alt="image">
+            <div data-aos="fade-up" class="project-card-content">
+                <span data-aos="fade-up" class="project-card-title">CLI stock management system</span>
+
+                <p data-aos="fade-up" class="project-card-desc">
+                    A CLI management system for supplier and stock management enables users to log in securely, manage supplier information, track inventory levels, and change login credentials efficiently through a text-based interface.
+                </p>
+
+                <!--GitHub icon-->
+                <div data-aos="fade-up" class="project-card-button-section">                    <!--change this-->
+                    <ul data-aos="fade-up" class="example-2">
+                        <li data-aos="fade-up" class="icon-content">                                            <!--link change-->
+                            <a data-aos="fade-up" data-social="github" aria-label="GitHub" href=https://github.com/kavee137/1st-Semester-Final-Coursework target="_blank">
+                                <div data-aos="fade-up" class="filled"></div>
+                                <svg xml:space="preserve" viewBox="0 0 16 16" class="bi bi-github" fill="currentColor" height="16" width="16" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill="currentColor" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"></path>
+                                </svg>
+                            </a>
+                            <div data-aos="fade-up" class="tooltip">GitHub</div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!--card-02-->
+        <div data-aos="fade-up" class="project-card">                   <!--change this -->
+            <img data-aos="fade-up" class="project-card-image" src="assets/images/<!--add-->" title="RUKZ clothing POS system" alt="image">
+            <div data-aos="fade-up" class="project-card-content">
+                <span data-aos="fade-up" class="project-card-title"><!--aded title --></span>
+
+                <p data-aos="fade-up" class="project-card-desc">
+                    A POS system for a clothing shop optimizes transaction handling, tracks inventory, manages customer details, and generates insightful sales reports. It enhances operational efficiency and supports better decision-making for store management.
+                </p>
+
+                <!--GitHub icon-->
+                <div data-aos="fade-up" class="project-card-button-section">
+                    <ul data-aos="fade-up" class="example-2">
+                        <li data-aos="fade-up" class="icon-content">        <!--add wena ekakk hithanna -->
+                            <a data-social="github" aria-label="GitHub" href=<!--add--> target="_blank">
+                                <div data-aos="fade-up" class="filled"></div>
+                                <svg xml:space="preserve" viewBox="0 0 16 16" class="bi bi-github" fill="currentColor" height="16" width="16" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill="currentColor" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"></path>
+                                </svg>
+                            </a>
+                            <div data-aos="fade-up" class="tooltip">GitHub</div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+                                                                    <!--change this-->
+        <!--
+        <div data-aos="fade-up" class="project-card">
+            <img data-aos="fade-up" class="project-card-image" src="assets/images/web-rukz-ss.png" title="RUKZ clothing web site" alt="image">
+            <div data-aos="fade-up" class="project-card-content">
+                <span data-aos="fade-up" class="project-card-title">Wordpress E-Commerce web site (Ongoing)</span>
+
+                <p data-aos="fade-up" class="project-card-desc">
+                    RUKZ Clothing is a WordPress-based e-commerce project focused on delivering a stylish online shopping experience. This platform showcases trendy apparel with an intuitive interface, enabling seamless navigation and secure transactions.
+                </p>
+
+                <div data-aos="fade-up" class="project-card-button-section">
+                    <a  data-aos="fade-up"class="project-card-action" href="https://rukzclothing.com" target="_blank">Visit web
+                        <span data-aos="fade-up" aria-hidden="true">→</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        card-03-->
+    </section>
+</main>
+
+
+
+
+
+
+
+
+<!--Education page-->
+<main class="education-page" id="education-page">
+
+    <!--topic section-->
+    <section class="topic-section">
+        <div data-aos="fade-up" class="page-topic">Education</div>
+        <div data-aos="fade-up" class="page-sub-topic">Where I studied?</div>
+    </section>
+
+    <!--content section-->
+    <section class="education-main-content-section">
+
+        <!--Education column 01-->
+        <section data-aos="fade-up" class="education-card-section education-column-01">
+            <!--education card-->
+            <div data-aos="fade-up" class="education-card nyc">                                                 <!--change this-->
+                <img data-aos="fade-up" id="education-NYC-img" src="assets/images/<!--add-->" title="National Youth Corps" alt="png"> <br>
+                <div data-aos="fade-up">                                            <!--change this-->
+                    <label data-aos="fade-up"><!--National Youth Corps--></label> <br>
+                    <label data-aos="fade-up" class="label-02"><!--Bulathsinghala--></label> <br>
+                    <label data-aos="fade-up" class="label-03"><!--ecognition, Further Training & Higher Studies--></label> <br>
+                    <label data-aos="fade-up" class="label-04"><!--present - 2019--></label>
+                </div>
+            </div>
+        </section>
+
+
+
+
+        <!--plane ekaa and char eka -->
+        <section data-aos="fade-up" class="container">                  <!--add image plan remove-->
+            <img data-aos="fade-up" class="plane-img" src="assets/images/<!--add-->">
+            <div data-aos="fade-up" class="vertical-line"></div>
+            <div data-aos="fade-up" class="horizontal-line top"></div>
+            <div data-aos="fade-up" class="horizontal-line middle"></div>
+            <div data-aos="fade-up" class="horizontal-line bottom"></div>
+        </section>
+
+
+
+
+        <!--Education column 02-->
+        <section data-aos="fade-up" class="education-card-section education-column-02">
+            <!--education card-->
+            <div data-aos="fade-up" class="education-card">                                     <!--change this-->
+                <img data-aos="fade-up" id="education-ijse-img" src="assets/images/<!--add-->" title="Institute of Software Engineering" alt="png"> <br>
+                <div data-aos="fade-up">
+                    <label data-aos="fade-up">Institute of Software Engineering</label> <br>
+                    <label data-aos="fade-up" class="label-02">Panadura</label> <br>
+                    <label data-aos="fade-up" class="label-03">Graduate Diploma in Software Engineering</label> <br>
+                    <label data-aos="fade-up" class="label-04">present - 2023</label>
+                </div>
+            </div>
+
+            <!--education card-->
+            <div data-aos="fade-up" class="education-card">                                     <!--change this-->
+                <img data-aos="fade-up" id="education-school-img" src="assets/images/<!--add-->" title="Mihindu Central College(National College)" alt="png"> <br>
+                <div data-aos="fade-up">                    <!--change this-->
+                    <label data-aos="fade-up"><!--Mihindu Central College--></label> <br>
+                    <label data-aos="fade-up" class="label-02"><!--Agalawatta--></label> <br>
+                    <label data-aos="fade-up" class="label-03"><!--Grage 6 to Advance Level--></label> <br>
+                    <label data-aos="fade-up" class="label-04"><!--present - 2014--></label>
+                </div>
+            </div>
+        </section>
+    </section>
+</main>
+
+
+
+
+
+
+
+
+
+<!--Skills page-->
+<main class="skill-page" id="skills-page">
+
+    <!--topic section-->
+    <section class="topic-section">
+        <div data-aos="fade-up" class="page-topic">Skills</div>
+        <div data-aos="fade-up" class="page-sub-topic">What I can do?</div>
+    </section>
+
+    <section class="skill-main-content-section">
+
+        <!--technical skills-->
+        <section class="skill-card">
+            <div data-aos="fade-up" class="skill-card-title">Technical skills</div>
+
+            <div class="rows">
+                <div class="row-01">
+
+                    <!--java-->
+                    <div class="skill-card-skill">
+                        <img data-aos="fade-up" src="assets/images/java-logo.png" title="java" alt="logo">
+                        <div data-aos="fade-up" class="skill-card-skill-name">
+                            Java
+                            <img data-aos="fade-up" src="assets/images/verified-tik.png" title="verified" alt="logo">
+                            <div data-aos="fade-up" class="skill-card-skill-level">Advanced</div>
+                        </div>
+                    </div>
+
+                    <!--HTML-->
+                    <div class="skill-card-skill">
+                        <img data-aos="fade-up" src="assets/images/html-logo.png" title="HTML" alt="logo">
+                        <div data-aos="fade-up" class="skill-card-skill-name">
+                            HTML
+                            <img data-aos="fade-up" src="assets/images/verified-tik.png" title="verified" alt="logo">
+                            <div data-aos="fade-up" class="skill-card-skill-level">Expert</div>
+                        </div>
+                    </div>
+
+                    <!--CSS-->
+                    <div class="skill-card-skill">
+                        <img data-aos="fade-up" src="assets/images/css-logo.png" title="CSS" alt="logo">
+                        <div data-aos="fade-up" class="skill-card-skill-name">
+                            CSS
+                            <img data-aos="fade-up" src="assets/images/verified-tik.png" title="verified" alt="logo">
+                            <div data-aos="fade-up" class="skill-card-skill-level">Expert</div>
+                        </div>
+                    </div>
+
+                    <!--GitHub-->
+                    <div class="skill-card-skill">
+                        <img data-aos="fade-up" src="assets/images/github-logo-for-skill.png" title="GitHub" alt="logo">
+                        <div data-aos="fade-up" class="skill-card-skill-name">
+                            GitHub
+                            <img data-aos="fade-up" src="assets/images/verified-tik.png" title="verified" alt="logo">
+                            <div data-aos="fade-up" class="skill-card-skill-level">Advance</div>
+                        </div>
+                    </div>
+
+                    <!--Draw.io-->
+                    <div class="skill-card-skill">
+                        <img data-aos="fade-up" src="assets/images/drawio-logo.png" title="Draw.io" alt="logo">
+                        <div data-aos="fade-up" class="skill-card-skill-name">
+                            Draw.io
+                            <img data-aos="fade-up" src="assets/images/verified-tik.png" title="verified" alt="logo">
+                            <div data-aos="fade-up" class="skill-card-skill-level">Advance</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row-02">
+
+                    <!--JavaScript-->
+                    <div class="skill-card-skill">
+                        <img data-aos="fade-up" src="assets/images/js-logo.png" title="JavaScript" alt="logo">
+                        <div data-aos="fade-up" class="skill-card-skill-name">
+                            JavaScript
+                            <img data-aos="fade-up" src="assets/images/verified-tik.png" title="verified" alt="logo">
+                            <div data-aos="fade-up" class="skill-card-skill-level">Advanced</div>
+                        </div>
+                    </div>
+
+                    <!--MySQL-->
+                    <div class="skill-card-skill">
+                        <img data-aos="fade-up" src="assets/images/mysql-logo.png" title="MySQL" alt="logo">
+                        <div  data-aos="fade-up"class="skill-card-skill-name">
+                            MySQL
+                            <img data-aos="fade-up" src="assets/images/verified-tik.png" title="verified" alt="logo">
+                            <div data-aos="fade-up" class="skill-card-skill-level">Proficient</div>
+                        </div>
+                    </div>
+
+                    <!--Git-->
+                    <div class="skill-card-skill">
+                        <img data-aos="fade-up" src="assets/images/git-logo.png" title="Git" alt="logo">
+                        <div data-aos="fade-up" class="skill-card-skill-name">
+                            Git
+                            <img data-aos="fade-up" src="assets/images/verified-tik.png" title="verified" alt="logo">
+                            <div data-aos="fade-up" class="skill-card-skill-level">Advance</div>
+                        </div>
+                    </div>
+
+                    <!--Figma-->
+                    <div \\ class="skill-card-skill">
+                        <img data-aos="fade-up" src="assets/images/figma-logo.png" title="Figma" alt="logo">
+                        <div data-aos="fade-up" class="skill-card-skill-name">
+                            Figma
+                            <img data-aos="fade-up" src="assets/images/verified-tik.png" title="verified" alt="logo">
+                            <div data-aos="fade-up" class="skill-card-skill-level">Expert</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!--soft skill section-->
+        <section class="skill-card">
+            <div data-aos="fade-up" class="skill-card-title">Soft skills</div>
+
+            <section class="soft-skill-section">
+                <!--skill - team collaboration-->
+                <div class="soft-skill">
+                    <div data-aos="fade-up">
+                        <img data-aos="fade-up" class="soft-skill-dot" src="assets/images/dot.png" title="" alt="">
+                        Team Collaboration:
+                        <div data-aos="fade-up" class="soft-skill-dsc">Proven ability to work collaboratively and contribute positively to team dynamics.</div>
+                    </div>
+                </div>
+
+                <!--skill - Problem Solving-->
+                <div  class="soft-skill">
+                    <div data-aos="fade-up">
+                        <img data-aos="fade-up" class="soft-skill-dot" src="assets/images/dot.png" title="" alt="">
+                        Problem Solving:
+                        <div  data-aos="fade-up"class="soft-skill-dsc">Strong analytical and problem-solving skills, with a keen attention to detail.</div>
+                    </div>
+                </div>
+
+                <!--skill - Time Management-->
+                <div  class="soft-skill">
+                    <div data-aos="fade-up">
+                        <img data-aos="fade-up" class="soft-skill-dot" src="assets/images/dot.png" title="" alt="">
+                        Time Management:
+                        <div data-aos="fade-up" class="soft-skill-dsc">Efficiently manage time and prioritize tasks to meet deadlines.</div>
+                    </div>
+                </div>
+
+                <!--skill - Adaptability-->
+                <div  class="soft-skill">
+                    <div data-aos="fade-up">
+                        <img data-aos="fade-up" class="soft-skill-dot" src="assets/images/dot.png" title="" alt="">
+                        Adaptability:
+                        <div data-aos="fade-up" class="soft-skill-dsc">Highly flexible and capable of quickly adjusting to new technologies, methodologies, and changing project requirements.</div>
+                    </div>
+                </div>
+            </section>
+        </section>
+    </section>
+</main>
+
+
+
+
+
+
+
+
+
+
+<!--assignments page-->
+<main class="assignment-page" id="assignments-page">
+    <!--topic section-->
+    <section class="topic-section">
+        <div data-aos="fade-up" class="page-topic">Assignments</div>
+        <div data-aos="fade-up" class="page-sub-topic">Academic Works</div>
+    </section>
+
+   <section class="assignment-main-content-section">
+
+       <section class="assignment-row">
+           <div class="assignment-card ass-card-01">
+               <div class="assignment-card-content">
+                   <p data-aos="fade-up" class="assignment-card-title">Case 01</p>
+                   <p data-aos="fade-up" class="card__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+               </div>
+               <div class="card__buttons">      <!--change this-->
+                   <a data-aos="fade-up" href="assignments/case01.html" target="_blank">
+                       <button class="card__button">Live Demo</button>
+                   </a>                                                             <!--change this-->
+                   <a data-aos="fade-up" href="https://github.com/kavee137/Assignment-04-Internet-Technology/blob/master/case-01/case01.html" target="_blank">
+                       <button class="card__button secondary">Source Code</button>
+                   </a>
+               </div>
+           </div>
+
+           <div class="assignment-card ass-card-02">
+               <div class="assignment-card-content">
+                   <p data-aos="fade-up" class="assignment-card-title">Case 02</p>
+                   <p data-aos="fade-up" class="card__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+               </div>
+               <div class="card__buttons">          <!--change this-->
+                   <a data-aos="fade-up" href="assignments/02-case.html" target="_blank">
+                       <button class="card__button">Live Demo</button>
+                   </a>                                                                                 <!--change this-->
+                   <a data-aos="fade-up" href="https://github.com/kavee137/Assignment-04-Internet-Technology/blob/master/case-02/02-case.html" target="_blank">
+                       <button class="card__button secondary">Source Code</button>
+                   </a>
+               </div>
+           </div>
+       </section>
+
+       <section class="assignment-row">
+           <div class="assignment-card ass-card-03">
+               <div class="assignment-card-content">
+                   <p data-aos="fade-up" class="assignment-card-title">Case 03</p>
+                   <p data-aos="fade-up" class="card__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+               </div>
+               <div class="card__buttons">          <!--change this-->
+                   <a  data-aos="fade-up"href="assignments/case03.html" target="_blank">
+                       <button class="card__button">Live Demo</button>
+                   </a>                                                             <!--change this-->
+                   <a data-aos="fade-up" href="https://github.com/kavee137/Assignment-04-Internet-Technology/blob/master/case-03/case03.html" target="_blank">
+                       <button class="card__button secondary">Source Code</button>
+                   </a>
+               </div>
+           </div>
+
+           <div class="assignment-card ass-card-04">
+               <div class="assignment-card-content">
+                   <p data-aos="fade-up" class="assignment-card-title">Case 04</p>
+                   <p data-aos="fade-up" class="card__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+               </div>
+               <div class="card__buttons">              <!--change this-->
+                   <a data-aos="fade-up" href="assignments/case04.html" target="_blank">
+                       <button class="card__button">Live Demo</button>
+                   </a>                                                         <!--change this-->
+                   <a data-aos="fade-up" href="https://github.com/kavee137/Assignment-04-Internet-Technology/blob/master/case-04/case04.html" target="_blank">
+                       <button class="card__button secondary">Source Code</button>
+                   </a>
+               </div>
+           </div>
+
+           <div class="assignment-card ass-card-05">
+               <div class="assignment-card-content">
+                   <p data-aos="fade-up" class="assignment-card-title">Case 05</p>
+                   <p data-aos="fade-up" class="card__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+               </div>
+               <div class="card__buttons">          <!--change this-->
+                   <a data-aos="fade-up" href="assignments/case05.html" target="_blank">
+                       <button class="card__button">Live Demo</button>
+                   </a>                                         <!--change this-->
+                   <a data-aos="fade-up" href="https://github.com/kavee137/Assignment-04-Internet-Technology/blob/master/case-05/case05.html" target="_blank">
+                       <button class="card__button secondary">Source Code</button>
+                   </a>
+               </div>
+           </div>
+       </section>
+
+
+       <section class="assignment-row">
+           <div class="assignment-card ass-card-06">
+               <div class="assignment-card-content">
+                   <p data-aos="fade-up" class="assignment-card-title">Case 06</p>
+                   <p data-aos="fade-up" class="card__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+               </div>
+               <div class="card__buttons">          <!--change this-->
+                   <a data-aos="fade-up" href="assignments/case06.html" target="_blank">
+                       <button class="card__button">Live Demo</button>
+                   </a>                                                 <!--change this-->
+                   <a data-aos="fade-up" href="https://github.com/kavee137/Assignment-04-Internet-Technology/blob/master/case-06/case06.html" target="_blank">
+                       <button class="card__button secondary">Source Code</button>
+                   </a>
+               </div>
+           </div>
+
+           <div class="assignment-card">
+               <div class="assignment-card-content"><!--change this-->
+                   <p data-aos="fade-up" class="assignment-card-title">Case 07</p>
+                   <p data-aos="fade-up" class="card__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+               </div>
+               <div class="card__buttons">
+                   <button class="card__button">Live Demo</button>
+                   <button class="card__button secondary">Source Code</button>
+               </div>
+           </div>
+       </section>
+
+
+
+
+
+
+
+
+
+   </section>
+
+</main>
+
+
+
+<!--gallery page-->
+<!--<main>-->
+<!--    &lt;!&ndash;topic section&ndash;&gt;-->
+<!--    <section>-->
+<!--        <h3>Gallery</h3>-->
+<!--        <h6>My Moments</h6>-->
+<!--    </section>-->
+
+<!--    &lt;!&ndash;photo section&ndash;&gt;-->
+<!--    <section>-->
+<!--        <img src="assets/images/allerypage-big-image.png" title="" alt="image">-->
+<!--    </section>-->
+<!--</main>-->
+
+
+
+
+
+
+
+
+
+<!--contact me page-->
+<main class="contact-me-page" id="contact-me-page">
+    <!--topic section-->
+    <section class="topic-section">
+        <div data-aos="fade-up" class="page-topic">Contact Me</div>
+        <div data-aos="fade-up" class="page-sub-topic">Get in Touch</div>
+    </section>
+
+
+    <!--Contact me main content section-->
+    <section class="contact-me-main-content-section">
+
+        <!--colunm 01-->
+        <section class="contact-me-row colunm-01">
+            <div data-aos="fade-up" class="contact-me-row-hello">Hello!</div>
+
+            <!--paragraph-->
+            <p data-aos="fade-up">
+                Thank you for exploring my portfolio! If you have any questions, insights, or are interested in discussing potential collaborations, don’t hesitate to get in touch. I look forward to hearing from you....
+            </p>
+            <div data-aos="fade-up">Best regards, <br> D.Wijayathilaka.</div>
+
+            <!--email-->
+            <div class="contact-me-email-section">
+                <div data-aos="fade-up">Email</div>
+                <div data-aos="fade-up">silvatharaka493@gmail.com
+                </div>
+            </div>
+
+            <!--social media-->
+            <div class="about-social-section about-social">
+                                                                                    <!--change this-->
+                <a data-social="linkedin" aria-label="LinkedIn" href=https://www.linkedin.com/in/kaveesha-rukshan-977354297 target="_blank">
+                    <img data-aos="fade-up" src="assets/images/linkedIn-logo.png" title="linkedIn profile" alt="linkedin logo">
+                </a>
+
+
+                <!--change this-->
+                <a href="https://github.com/kavee137" target="_blank">
+                    <img data-aos="fade-up" src="assets/images/github-logo.png" title="github profile" alt="github logo">
+
+                </a>
+                <!--change this-->
+                <a href="https://facebook.com/kaveesharuksha?mibextid=LQQJ4d" target="_blank">
+                    <img data-aos="fade-up" src="assets/images/facebook-logo.png" title="facebook profile" alt="facebook logo">
+                </a>
+
+                <!--change this-->
+                <a href="https://wa.link/fbjftx" target="_blank">
+                    <img data-aos="fade-up" src="assets/images/whatsapp-logo.png" title="whatsapp messenger" alt="whatsapp logo">
+                </a>
+            </div>
+        </section>
+
+
+
+
+        <!--column 02-->
+        <section class="contact-me-row column-02">
+            <!-- Contact form -->
+            <form class="contact-me-form">
+                <div class="input-row">
+                    <label>
+                        <input data-aos="fade-up" class="contact-me-name-input-field" type="text" placeholder="First Name">
+                    </label>
+                    <label>
+                        <input data-aos="fade-up" class="contact-me-name-input-field" type="text" placeholder="Last Name">
+                    </label>
+                </div>
+                <div>
+                    <label>
+                        <input data-aos="fade-up" class="contact-me-input-field" type="email" placeholder="Email">
+                    </label>
+                </div>
+                <div>
+                    <label>
+                        <textarea data-aos="fade-up" class="contact-me-textarea-field" placeholder="Enter your message"></textarea>
+                    </label>
+                </div>
+                <div>
+                    <button data-aos="fade-up" class="contact-me-submit-button">Send message</button>
+                </div>
+            </form>
+        </section>
+
+    </section>
+
+    <!--name text-->
+    <section class="contact-me-name">DZL</section>
+</main>
+
+
+
+<!--footer-->
+<footer class="footer">
+    <!-- Scroll to Top Button -->
+    <div class="footer-back-to-up-button-section">
+        <a href="#" class="footer-back-to-up-button">
+            <svg class="svgIcon" viewBox="0 0 384 512">
+                <path
+                        d="M214.6 41.4c-12.5-12.5-32.8-12.5-45.3 0l-160 160c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L160 141.2V448c0 17.7 14.3 32 32 32s32-14.3 32-32V141.2L329.4 246.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3l-160-160z"
+                ></path>
+            </svg>
+        </a>
+    </div>
+
+    <div id="footer-text">
+        <div>© 2024 Crafted by Dasun| All rights acknowledged</div>
+    </div>
+</footer>
+
+
+
+
+
+
+<!--tablet and mobile navigation bar-->
+<script>
+    function toggleSidebar() {
+        var sidebar = document.getElementById("sidebar");
+        if (sidebar.classList.contains("open")) {
+            sidebar.classList.remove("open");
+        } else {
+            sidebar.classList.add("open");
+        }
+    }
+
+</script>
+
+<!--AOS library-->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
+
+<!--Upper navigation clicked button color change-->
+<script>
+    // Select all main sections
+    const sections = document.querySelectorAll('main');
+    // Select all navigation links
+    const navLinks = document.querySelectorAll('.upper-navigation');
+
+    // Function to highlight the active navigation link
+    const observer = new IntersectionObserver(entries => {
+        entries.forEach(entry => {
+            const id = entry.target.getAttribute('id'); // Get the section ID
+            const navLink = document.querySelector(`a[href="#${id}"]`);
+
+            if (entry.isIntersecting) {
+                // Add the active class to the current link
+                navLink.classList.add('active-link');
+            } else {
+                // Remove the active class if the section is not in view
+                navLink.classList.remove('active-link');
+            }
+        });
+    }, {
+        threshold: 0.5 // This defines how much of the section needs to be visible
+    });
+
+    // Observe each section
+    sections.forEach(section => {
+        observer.observe(section);
+    });
+</script>
+
+
+
+
+</body>
+</html>
