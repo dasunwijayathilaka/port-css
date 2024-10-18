@@ -32,6 +32,8 @@
 #about-Dasun {
     height: 500px; /* Obē pinthurayē usuma podi kirīma */
     margin: -100px -20px -30px -10px;
+    box-shadow: 0px 4px 6px rgb(248, 192, 50), 0px 10px 20px rgb(62, 230, 15);
+
 }
 
 #about-Dasun-img {

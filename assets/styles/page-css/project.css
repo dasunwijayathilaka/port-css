@@ -15,10 +15,11 @@
 .project-card {
     max-width: 280px;
     border-radius: 0.5rem;
-    background-color: #fff;
-    box-shadow: 0 6px 2px 0 rgba(0, 0, 0, 0.05);
+    background-color: black;
     border: 1px solid transparent;
     margin: 50px;
+    box-shadow: 0px 4px 6px rgb(248, 192, 50), 0px 10px 20px rgb(62, 230, 15);
+
 }
 
 .project-card a {

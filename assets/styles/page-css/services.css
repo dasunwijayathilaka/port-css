@@ -17,6 +17,8 @@
     text-align: center;
     min-width: 290px;
     margin: 32px;
+    box-shadow: 0px 4px 6px rgb(248, 192, 50), 0px 10px 20px rgb(62, 230, 15);
+
 
     font-family: "Yantramanav", sans-serif;
 
